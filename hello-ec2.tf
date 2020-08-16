@@ -7,7 +7,7 @@ resource "aws_instance" "Dupa_Chuj_Cipa" {
   key_name = "London-KP"
   vpc_security_group_ids = ["WebDMZ"]
   tags = {
-    Name = "Terraform test EC2"
+    Name = "Terraform test EC2 v2"
     Environment = "test"
   }
 }

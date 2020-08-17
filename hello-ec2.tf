@@ -9,5 +9,5 @@ resource "aws_instance" "Dupa_Chuj_Cipa" {
   tags = {
     Name = "Terraform test EC2 v3"
     Environment = "test"
-  }
+    }
 }
